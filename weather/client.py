@@ -17,7 +17,7 @@ class MCPClient:
         transport = httpx.AsyncHTTPTransport(proxy=None)  # 明确禁用代理
         self.client = httpx.AsyncClient(transport=transport)
         self.deepseek_api_url = "https://api.deepseek.com/v1"  # Update with actual DeepSeek API URL
-        self.deepseek_api_key = "sk-f0904a96b7654c8d811ec4ffefc88bd1"  # Set from environment variables
+        self.deepseek_api_key = "sk-xxx"  # Set from environment variables
 
     async def connect_to_server(self, server_script_path: str):
         """Connect to an MCP server
