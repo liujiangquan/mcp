@@ -15,7 +15,7 @@ for key in ["HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY
 llm = ChatOpenAI(
     model_name="deepseek-chat",
     base_url="https://api.deepseek.com/v1",
-    api_key="sk-f0904a96b7654c8d811ec4ffefc88bd1",  # 替换为你自己的 key
+    api_key="sk-xxx",  # 替换为你自己的 key
 )
 
 # 定义工具
